@@ -2,48 +2,82 @@
 <html lang=“es”>
 <head>
 <meta charset=“utf8”>
-	<title>Autos de coleccion</title>
+	<title>BILLAR</title>
 </head>
 <body>
 <header>
-		<h1>TIPOS DE AUTOS</h1>
+		<h2 style="color:red;" align="center">Bienvenidos a</h2>
+		<h1 style="color:red;" align="center">-----BILLAR PICU2-----</h1>
 	</header>
 	<nav>
 		<ul>
-			<li><a href="inicio.html#">Inicio</a></li>
-			<li><a href="about.html#">About</a></li>
-			<li><a href="blog.html#">Blog</a></li>
+			<li><a href="pag1.html#">Inicio</a></li>
+			<li><a href="eventos.html#">Eventos</a></li>
+			<li><a href="Contacto.html#">Contactanos</a></li>
 			<li><a href="multimedia.html#">Multimedia</a></li>
-			
 		</ul>
 	</nav>
-<section id="sitio">
-				<article class="sitios">
-					<h2>HOT RODS (DRAGSTERS)</h2>
-					<p> Denominacion usada en Norteamerica para indicar genericamente los vehiculos que participaban en carreras. </p>
-					<img src="car.png">
+	
+	<section>
+				<h3> Obten todos los beneficion de ser cliente picudo </h3>
+				<fieldset>
+					<legend> Clientes PICU2 </legend>
+					<h3>Llena este formato y en un lapso de 30-60 minutos te estara llegando mensaje de aceptacion a tu correo.</h3>
+					<p>Nota: Es necesario ser mayor de edad!</p>
+					<br>
+					<form method ="post" action="gardar.php ">
+						<label>Nombre: &nbsp </label>
+						<input type="text" name="nombre" required placeholder="nombre completo">
+						<br>
+						<br>
+						<label>Correo: &nbsp </label>
+						<input type="email" name="nombre" required placeholder="tucorreo@server.com">
+						<br>
+						<br>
+						<label>Telefono: &nbsp </label>
+						<input type="email" name="nombre" required placeholder="(712)XXX XX XX">
+						<br>
+						<br>
+						<input id="enviar" type="submit" value="enviar">
+						<input id="cancelar" type="reset" value="cancelar">
+					</form>
+
+				</fieldset>
+
+			</section bordercolor="red">
+			
+			<section id="sitio">
+				<article class="sitios" >
+					<h2>POOL</h2>
+					<p> Las mesas de pool tienen seis agujeros, cuatro en las esquinas y dos en la mitad de los dos lados más largos.</p>
+					<img src="pool.jpg">
 				</article>
 				<br>
 				<br>
 				<article class="sitios">
-					<h2>TUNING</h2>
-					<p> Modificacion del rendimiento o apariencia de los autos. </p>
-					<img src="car.png">
+					<h2>CARAMBOLA</h2>
+					<p> Las mesas de carambola son mesas sin agujeros. </p>
+					<img src="carambola.jpg">
 				</article>
 				<br>
 				<br>
 				<article class="sitios">
-					<h2>MUSCLE CARS</h2> 
-					p> Automovil de procedencia norteamericana de tamaño medio-grande con rasgos deportvos y motor potente. </p>
-					<img src="car.png">
+					<h2>DOMINO</h2> 
+					<p> El tipo de juego más popular son los juegos de diseño, que se dividen en dos categorías principales: bloqueo de juegos y juegos de puntuación.</p>
+					<p>  -> En los juegos de bloqueo, el objetivo es vaciar la mano mientras se bloquea la del oponente. Al final, un puntaje puede determinarse contando las pepitas en las manos de los jugadores perdedores. </p>
+					<p>  -> En los juegos de puntaje, el puntaje es diferente y ocurre principalmente durante el juego, por lo que es el objetivo principal. </p>
+					<img src="domino.jpg">
 				</article>
+				<br>
+				<br>
+				<article class="sitios">
+					<h2>COMENTARIOS</h2> 
+					<label>Tu opinion nos interesa: <br> </label>
+						<textarea></textarea>
+						<br>
+						<input id="enviar" type="submit" value="enviar">
 			</section>
-			<br>
-			<br>
-			<audio controls align="right">
-  		<source src="music.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	</audio>
+			
 
 </body>
 </html>
